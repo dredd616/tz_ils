@@ -1,0 +1,18 @@
+.order-list {
+  width: 300px;
+}
+
+.order-list-item {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all;
+  transition-duration: .28s;
+
+  &-active {
+    background-color: #1677ff;
+    font-weight: bold;
+  }
+}
